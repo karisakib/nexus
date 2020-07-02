@@ -1,0 +1,161 @@
+@media only screen and (max-width: 900px) {
+
+    .navbar {
+        padding: .5rem 0;
+    }
+
+    .header__logo {
+        width: 5rem;
+        margin-left: 1rem;
+        margin-top: .5rem;
+    }
+
+    .section-services__service-title {
+        font-size: 2rem;
+    }
+
+    .section-services__service-title-description {
+        font-size: 1.25rem;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__textbox {
+        font-size: 1rem;
+        margin: 2rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .navbar {
+        padding: .3rem 0;
+    }
+
+    .user-nav__item {
+        padding: .3rem 0;
+    }
+
+    .user-nav__link {
+        font-size: 1.25rem;
+    }
+
+    .hero {
+        height: 60rem;
+
+        flex-direction: column-reverse;
+    }
+
+    .hero-text-box__text {
+        margin-left: 3rem;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hero-text__top {
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+
+    .hero-text__bottom {
+        font-size: 3rem;
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-text-box__paragraph {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-right: 3rem;
+    }
+
+    .hero-image__large {
+        margin-top: 3rem;
+        width: 70%;
+        align-self: center;
+    }
+
+    .section-about__about {
+        font-size: 1rem;
+    }
+
+    .section-about__paragraph {
+        font-size: 1.6rem;
+        line-height: 145%;
+    }
+
+    .section-services {
+        display: none;
+    }
+
+    .section-services__service-title {
+        font-size: 1.6rem;
+    }
+
+    .section-feature-1__about {
+        font-size: 1rem;
+    }
+
+    .section-feature-1__paragraph {
+        font-size: 1.6rem;
+        line-height: 145%;
+    }
+
+    .section-feature-2__about {
+        font-size: 1rem;
+    }
+
+    .section-feature-2__paragraph {
+        font-size: 1.6rem;
+        line-height: 145%;
+    }
+
+    .section-feature-3__about {
+        font-size: 1rem;
+    }
+
+    .section-feature-3__paragraph {
+        font-size: 1.6rem;
+        line-height: 145%;
+    }
+
+    .section-start__about {
+        font-size: 1rem;
+    }
+
+    .section-start__paragraph {
+        font-size: 1.6rem;
+        line-height: 145%;
+    }
+
+    .section-contact__about {
+        font-size: 1rem;
+    }
+
+    .section-contact__paragraph {
+        font-size: 1.6rem;
+        line-height: 145%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        height: 55rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero {
+        height: 50rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero {
+        height: 45rem;
+    }
+}

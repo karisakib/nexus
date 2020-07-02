@@ -70,34 +70,14 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: var(--secondary);
+    background-color: var(--peach);
 
     padding: 1rem 0;
-}
-
-@media only screen and (max-width: 900px) {
-    .navbar {
-        padding: .5rem 0;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .navbar {
-        padding: .3rem 0;
-    }
 }
 
 .header__logo {
     width: 6rem;
     margin-left: 2rem;
-}
-
-@media only screen and (max-width: 900px) {
-    .header__logo {
-        width: 5rem;
-        margin-left: 1rem;
-        margin-top: .5rem;
-    }
 }
 
 .user-nav {
@@ -116,37 +96,17 @@ body {
     margin-right: 2rem;
 }
 
-@media only screen and (max-width: 650px) {
-    .user-nav__item {
-        padding: .3rem 0;
-    }
-}
-
 .user-nav__link {
     font-size: 1.5rem;
     font-weight: 300;
-    color: var(--primary);
+    color: var(--w);
     text-decoration: none;
-}
-
-@media only screen and (max-width: 650px) {
-    .user-nav__link {
-        font-size: 1.25rem;
-    }
 }
 
 .hero {
     height: 40rem;
 
     display: flex;
-}
-
-@media only screen and (max-width: 650px) {
-    .hero {
-        height: 60rem;
-
-        flex-direction: column-reverse;
-    }
 }
 
 .hero-text-box {
@@ -167,17 +127,10 @@ body {
 
     display: flex;
     flex-direction: column;
-
 }
 
 .hero-text__top {
     margin-top: 8rem;
-}
-
-@media only screen and (max-width: 650px) {
-    .hero-text__top {
-        font-size: 3rem;
-    }
 }
 
 .hero-text__bottom {
@@ -185,26 +138,10 @@ body {
     margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 650px) {
-    .hero-text__bottom {
-        font-size: 3rem;
-        margin-top: -1rem;
-        margin-bottom: 1.5rem;
-    }
-}
-
 .hero-text-box__paragraph {
     font-size: 1.75rem;
     line-height: 2.5rem;
     margin-right: 5rem;
-}
-
-@media only screen and (max-width: 650px) {
-    .hero-text-box__paragraph {
-        font-size: 1.25rem;
-        line-height: 2rem;
-        margin-right: 5rem;
-    }
 }
 
 .hero-image-box {
@@ -220,19 +157,12 @@ body {
     align-self: center;
 }
 
-@media only screen and (max-width: 650px) {
-    .hero-image__large {
-        margin-top: 3rem;
-        width: 70%;
-        align-self: center;
-    }
-}
-
 .section-about {
-    background-color: var(--peach);
-    color: var(--w);
+    background-color: var(--w);
+    color: var(--primary);
 
-    height: 30rem;
+    padding: 5rem 0;
+    height: auto;
 
     display: flex;
 }
@@ -269,7 +199,7 @@ body {
 }
 
 .section-services__service-box {
-    flex-basis: 20%;
+    flex-basis: 30%;
 
     margin-top: 7.5rem;
 }
@@ -293,27 +223,8 @@ body {
     margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 900px) {
-    .section-services__service-title {
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .section-services__service-title {
-        font-size: 1.6rem;
-    }
-}
-
 .section-services__service-description {
     font-size: 1.5rem;
-}
-
-
-@media only screen and (max-width: 900px) {
-    .section-services__service-title-description {
-        font-size: 1.25rem;
-    }
 }
 
 .section-feature-1 {
